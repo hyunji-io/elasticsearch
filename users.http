@@ -1,0 +1,30 @@
+### POST
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "test1",
+  "age": 30,
+  "isActive": false
+}
+
+### GET
+GET http://localhost:8080/users
+
+### GET
+GET localhost:8080/users/1
+
+### PUT
+PUT localhost:8080/users/1
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "수정",
+  "age": 30,
+  "isActive": false
+}
+
+### DELETE
+DELETE localhost:8080/users/1
